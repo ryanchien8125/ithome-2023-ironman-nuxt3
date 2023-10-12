@@ -36,6 +36,11 @@ useSeoMeta({
   ogTitle: seoMeta.title,
   ogDescription: seoMeta.description,
   ogImage: seoMeta.image,
-  ogUrl: seoMeta.url
+  ogUrl: seoMeta.url,
+  twitterTitle: seoMeta.title,
+  twitterDescription: seoMeta.description,
+  twitterImage: seoMeta.image,
+  twitterUrl: seoMeta.url,
+  twitterCard: 'summary_large_image'
 })
 </script>
