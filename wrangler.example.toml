@@ -1,0 +1,10 @@
+name = "ithome2023-nuxt-app"
+main = "./.output/server/index.mjs"
+workers_dev = true
+compatibility_date = "2023-10-13"
+
+[site]
+bucket = ".output/public"
+
+[vars]
+DATABASE_URL = "postgres://<username>:<password>@<host>"
